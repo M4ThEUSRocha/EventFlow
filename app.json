@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "EventFlow",
+    "slug": "EventFlow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "jsEngine": "jsc",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#ffffff" },
+      "edgeToEdgeEnabled": true,
+      "package": "com.m_rocha.EventFlow"
+    },
+    "web": { "favicon": "./assets/favicon.png" },
+    "extra": { "eas": { "projectId": "c5189800-74d4-4115-a09d-0974e7bfe73e" } }
+  }
+}
